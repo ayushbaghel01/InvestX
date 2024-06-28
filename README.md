@@ -87,8 +87,9 @@ In addition to technical indicators, we conducted in-depth analysis on fundament
 # Integration of Technical Indicators
 To improve the robustness of our predictions, we integrated the findings from technical analysis with fundamental data exploration. This synergistic approach enabled us to leverage the strengths of both methodologies, resulting in more accurate forecasts.
 
-# Web Scraping with Selenium
-Furthermore, we utilized Selenium to scrape additional market data from the Opstra website. This data augmentation strategy provided us with a richer dataset for analysis, allowing for deeper insights and more informed decision-making.
+# Pair Trading
+Pair trading involves identifying two highly correlated stocks and trading based on the assumption that their price relationship will revert to the mean. Using a mean reversion strategy with z-scores, traders can measure the divergence between the stocks. When the z-score exceeds a certain threshold (e.g., 2 or -2), it indicates that the stocks are mispriced, prompting a buy of the underperforming stock and a sell of the outperforming stock, anticipating a return to equilibrium.
+
 
 ## Requirements
 - Python
